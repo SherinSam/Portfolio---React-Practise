@@ -30,3 +30,54 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  background: black;
+  height: 100px;
+}
+
+.logo {
+  float: left;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.about {
+  color:white;
+  font-size: 20px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.contact {
+  color:white;
+  font-size: 20px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.main-body{
+  display: flex;
+  flex-flow: row wrap;
+  
+}
+
+.project-card {
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.sub-head {
+  font-size: 20px;
+}
+
+.link {
+  text-decoration: none;
+}
